@@ -9,51 +9,52 @@ redirect_from:
 
 {% include base_path %}
 
-Education
-======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+# **教育经历**
 
-Work experience
-======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+**山东大学（济南）**
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+软件工程 本科 软件学院
 
-Publications
-======
-  <ul>{% for post in site.publications %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks %}
-    {% include archive-single-talk-cv.html %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+GPA：92.94/100，成绩排名：7/333
+
+Cet-4/Cet-6：512/465
+
+相关课程：数据结构(98)、线性代数(100)、编译原理(96)、离散数学(94)、概率与统计(99)、高级语言程序设计(97)、C++程序设计(94)、计算机组织与结构(99)、计算机网络(95)、操作系统(90)、数据库系统(93)、算法设计与分析(88)、面向对象开发技术(94)
+
+# **荣誉奖项**
+
+国家奖学金（前1%） 
+
+山东大学学业奖一等 
+
+山东大学优秀共青团员 
+
+# **科研经历**
+
+**研究方向：人工智能与药物生物信息学 科研助手 指导老师：魏乐义教授** 
+
+阅读多篇论文
+
+熟悉pyTorch代码框架
+
+# **项目经历**
+
+- **基于高性能计算的支撑点选择算法的并行化** 
+
+> 使用OpenMP实现支撑点选择算法在多核CPU处理器上的并行化，使用时间换空间思想解决数据依赖问题，尝试借用堆排序、快速排序查找前k个最大数等思想加快排序速度，同时使用向量化、分支预测、位运算、循环展开、NUMA绑核等细粒度优化技术对代码进行进一步优化，获指导老师高度认可。
+>
+> 初始串行代码运行时间：469892.71ms；优化后运行时间：333.21ms。
+>
+> 线程数为64时，加速比为15.125。
+
+- **12307火车票售票系统** 
+
+> 前端采⽤VUE框架，后端采⽤Spring Boot框架，参照12306网站，独立负责搭建Web高性能火车票售票网站，使用MySQL数据库存储车次、用户信息等数据，并使用SQL语句完成逻辑实现，实现数据库为核心的产品化导向项目。
+
+- **校园导游项目** 
+
+> 采用Qt框架，独立负责搭建校园导游平台，采用Dijkstra算法、Floyd算法等计算最短路径，实现了校园地图可视化、对校园景点的介绍以及对游览路线的设计。
+
+# **校园经历**
+
+**山东大学软件学院学生会·部长** 
