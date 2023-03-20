@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "academicpages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "张靖婕"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
@@ -8,43 +8,85 @@ redirect_from:
   - /about.html
 ---
 
-This is the front page of a website that is powered by the [academicpages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the respository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this repository](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads! An older version of this template powers my own personal website at [stuartgeiger.com](http://stuartgeiger.com), which uses [this Github repository](https://github.com/staeiou/staeiou.github.io).
+> 我是一位来自山东大学软件学院的本科生，导师为[魏乐义](https://faculty.sdu.edu.cn/weileyi/zh_CN/index.htm)教授。
+>
+> 研究兴趣为人工智能、机器学习、高性能计算、药物生物信息学。
 
-A data-driven personal website
-======
-Like many other Jekyll-based GitHub Pages templates, academicpages makes you separate the website's content from its form. The content & metadata of your website are in structured markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
+## 科研经历
 
-Many of the features of dynamic content management systems (like Wordpress) can be achieved in this fashion, using a fraction of the computational resources and with far less vulnerability to hacking and DDoSing. You can also modify the theme to your heart's content without touching the content of your site. If you get to a point where you've broken something in Jekyll/HTML/CSS beyond repair, your markdown files describing your talks, publications, etc. are safe. You can rollback the changes or even delete the repository and start over -- just be sure to save the markdown files! Finally, you can also write scripts that process the structured data on the site, such as [this one](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb) that analyzes metadata in pages about talks to display [a map of every location you've given a talk](https://academicpages.github.io/talkmap.html).
+- 阅读多篇论文
+- 熟悉pyTorch代码框架
 
-Getting started
-======
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Fork [this repository](https://github.com/academicpages/academicpages.github.io) by clicking the "fork" button in the top right. 
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](http://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
+## 项目经历
 
-Site-wide configuration
-------
-The main configuration file for the site is in the base directory in [_config.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_config.yml), which defines the content in the sidebars and other site-wide features. You will need to replace the default variables with ones about yourself and your site's github repository. The configuration file for the top menu is in [_data/navigation.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_data/navigation.yml). For example, if you don't have a portfolio or blog posts, you can remove those items from that navigation.yml file to remove them from the header. 
+**基于高性能计算的支撑点选择算法的并行化** 
 
-Create content & metadata
-------
-For site content, there is one markdown file for each type of content, which are stored in directories like _publications, _talks, _posts, _teaching, or _pages. For example, each talk is a markdown file in the [_talks directory](https://github.com/academicpages/academicpages.github.io/tree/master/_talks). At the top of each markdown file is structured data in YAML about the talk, which the theme will parse to do lots of cool stuff. The same structured data about a talk is used to generate the list of talks on the [Talks page](https://academicpages.github.io/talks), each [individual page](https://academicpages.github.io/talks/2012-03-01-talk-1) for specific talks, the talks section for the [CV page](https://academicpages.github.io/cv), and the [map of places you've given a talk](https://academicpages.github.io/talkmap.html) (if you run this [python file](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.py) or [Jupyter notebook](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb), which creates the HTML for the map based on the contents of the _talks directory).
+- <span style='font-size:14px'>使用**OpenMP**实现支撑点选择算法在多核CPU处理器上的并行化，使用时间换空间思想解决数据依赖问题，尝试借用堆排序、快速排序查找前k个最大数等思想加快排序速度，同时使用向量化、分支预测、位运算、循环展开、NUMA绑核等**细粒度优化**技术对代码进行进一步优化，获指导老师高度认可。</span>
 
-**Markdown generator**
+- <span style='font-size:14px'>初始串行代码运行时间：469892.71ms；优化后运行时间：333.21ms。</span>
 
-I have also created [a set of Jupyter notebooks](https://github.com/academicpages/academicpages.github.io/tree/master/markdown_generator
-) that converts a CSV containing structured data about talks or presentations into individual markdown files that will be properly formatted for the academicpages template. The sample CSVs in that directory are the ones I used to create my own personal website at stuartgeiger.com. My usual workflow is that I keep a spreadsheet of my publications and talks, then run the code in these notebooks to generate the markdown files, then commit and push them to the GitHub repository.
+- <span style='font-size:14px'>线程数为64时，加速比为15.125。</span>
 
-How to edit your site's GitHub repository
-------
-Many people use a git client to create files on their local computer and then push them to GitHub's servers. If you are not familiar with git, you can directly edit these configuration and markdown files directly in the github.com interface. Navigate to a file (like [this one](https://github.com/academicpages/academicpages.github.io/blob/master/_talks/2012-03-01-talk-1.md) and click the pencil icon in the top right of the content preview (to the right of the "Raw | Blame | History" buttons). You can delete a file by clicking the trashcan icon to the right of the pencil icon. You can also create new files or upload files by navigating to a directory and clicking the "Create new file" or "Upload files" buttons. 
+**12307火车票售票系统** 
 
-Example: editing a markdown file for a talk
-![Editing a markdown file for a talk](/images/editing-talk.png)
+- <span style='font-size:14px'>独立完成基于JavaScript的web高性能火车票售票网站开发，功能完善。</span>
+- <span style='font-size:14px'>前端采⽤**VUE**框架，后端采⽤**Spring Boot**框架，参照12306网站，独立负责搭建Web高性能火车票售票网站，使用MySQL数据库存储车次、用户信息等数据，并使用SQL语句完成逻辑实现，实现数据库为核心的产品化导向项目。</span>
 
-For more info
-------
-More info about configuring academicpages can be found in [the guide](https://academicpages.github.io/markdown/). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
+**校园导游项目** 
+
+- <span style='font-size:14px'>独立完成基于C++的校园导游平台开发，实现了校园地图可视化、对校园景点的介绍以及对游览路线的设计。</span>
+- <span style='font-size:14px'>前端使用**Qt**进行图形用户界面设计，用无向网表示校园景点平面图，使用**Floyd算法**等计算图中任意两个景点间的最短路径、所有路径；使用**最近邻点算法**计算多个景点的最佳游览路径；并实现对有关景点和道路的信息的增删改查。</span>
+
+**师生线上考试平台**
+
+- <span style='font-size:14px'>基于 Java、MySQL、Swings 实现C/S模式的师生线上考试平台。具有线上考试、阅卷、查看成绩、查看排名、学生成绩复核申请等功能。</span>
+
+## 荣誉奖项
+
+<span style='font-size:14px'>山东大学2022年暑期社会实践院级优秀团队  2022年10月</span>
+
+<span style='font-size:14px'>**2022年度国家奖学金  2022年10月**</span>
+
+<span style='font-size:14px'>山东大学三好学生  2022年9月</span>
+
+<span style='font-size:14px'>山东大学学业奖一等  2022年9月</span>
+
+<span style='font-size:14px'>山东大学社会服务类特长奖二等  2022年9月</span>
+
+<span style='font-size:14px'>第八届山东大学“互联网+”大学生创新创业大赛优胜奖  2022年8月</span>
+
+<span style='font-size:14px'>山东大学优秀共青团员  2022年5月</span>
+
+<span style='font-size:14px'>山东大学2022年寒假社会实践院级优秀团队  2022年3月</span>
+
+<span style='font-size:14px'>山东大学2021年学生宿舍文化节手工艺品大赛二等奖  2021年12月</span>
+
+<span style='font-size:14px'>山东大学2020-2021年度社会实践活动优秀团队  2021年12月</span>
+
+<span style='font-size:14px'>“山软青春汇之宿舍文化节”手工艺品比赛一等奖  2022年11月</span>
+
+<span style='font-size:14px'>山东大学软件学院优秀学生干部  2021年11月</span>
+
+<span style='font-size:14px'>**2021年度国家奖学金  2021年10月**</span>
+
+<span style='font-size:14px'>山东大学三好学生  2021年9月</span>
+
+<span style='font-size:14px'>山东大学学业一等奖学金  2021年9月</span>
+
+<span style='font-size:14px'>山东大学实践创业类特长奖一等  2021年9月</span>
+
+<span style='font-size:14px'>山东大学研究创新类特长奖二等  2021年9月</span>
+
+<span style='font-size:14px'>第七届山东大学“互联网+”大学生创新创业大赛优胜奖  2021年8月</span>
+
+<span style='font-size:14px'>山东大学软件学院学生会优秀干事  2021年5月</span>
+
+<span style='font-size:14px'>山东大学“挑战杯”课外学术科技竞赛三等奖  2021年4月</span>
+
+<span style='font-size:14px'>山东大学软件学院2021年诚信状活动二等奖  2021年3月</span>
+
+<span style='font-size:14px'>山东大学2021年寒假社会实践院级优秀团队  2021年3月</span>
+
+<span style='font-size:14px'>山东大学软件学院2020年寻宝大赛活动一等奖  2020年11月</span>
+
+<span style='font-size:14px'>山东大学2020年学生宿舍文化节手工艺品大赛三等奖  2020年12月</span>
