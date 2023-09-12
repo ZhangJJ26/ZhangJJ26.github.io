@@ -10,6 +10,7 @@ redirect_from:
 
 ## Education experience
 2020.9-2024.6 Shandong University (SDU)
+
 2024.8-2028.6 The Chinese University of Hong Kong (CUHK)
 
 
