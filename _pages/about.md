@@ -8,42 +8,14 @@ redirect_from:
   - /about.html
 ---
 
-> 我是一位来自山东大学软件学院的本科生，导师为[魏乐义](https://faculty.sdu.edu.cn/weileyi/zh_CN/index.htm)教授。
->
-> 研究兴趣为人工智能、机器学习、自然语言处理、高性能计算、药物生物信息学。
+## Education experience
+2020.9-2024.6 Shandong University (SDU)
+2024.8-2028.6 The Chinese University of Hong Kong (CUHK)
+
 
 ## 科研经历
+To be supplemented.
 
-- 阅读多篇论文
-- 熟悉pyTorch代码框架
-
-
-**基于分子间反应知识的Graph-Transformer预训练模型**
-- 提出将化学反应信息作为分子图预训练的自监督代理任务，包含预测化学反应的键级变化、电荷变化等四种任务，对Graph-Transformer模型进行预训练，使得模型学习到化学反应性信息。使用分子性质预测、药物相互作用(DDI)预测、药物间协同作用(DDS)预测等多种下游任务微调模型。
-
-## 项目经历
-
-**基于高性能计算的支撑点选择算法的并行化** 
-
-- <span style='font-size:14px'>使用**OpenMP**实现支撑点选择算法在多核CPU处理器上的并行化，使用时间换空间思想解决数据依赖问题，尝试借用堆排序、快速排序查找前k个最大数等思想加快排序速度，同时使用向量化、分支预测、位运算、循环展开、NUMA绑核等**细粒度优化**技术对代码进行进一步优化，获指导老师高度认可。</span>
-
-- <span style='font-size:14px'>初始串行代码运行时间：469892.71ms；优化后运行时间：333.21ms。</span>
-
-- <span style='font-size:14px'>线程数为64时，加速比为15.125。</span>
-
-**12307火车票售票系统** 
-
-- <span style='font-size:14px'>独立完成基于JavaScript的web高性能火车票售票网站开发，功能完善。</span>
-- <span style='font-size:14px'>前端采⽤**VUE**框架，后端采⽤**Spring Boot**框架，参照12306网站，独立负责搭建Web高性能火车票售票网站，使用MySQL数据库存储车次、用户信息等数据，并使用SQL语句完成逻辑实现，实现数据库为核心的产品化导向项目。</span>
-
-**校园导游项目** 
-
-- <span style='font-size:14px'>独立完成基于C++的校园导游平台开发，实现了校园地图可视化、对校园景点的介绍以及对游览路线的设计。</span>
-- <span style='font-size:14px'>前端使用**Qt**进行图形用户界面设计，用无向网表示校园景点平面图，使用**Floyd算法**等计算图中任意两个景点间的最短路径、所有路径；使用**最近邻点算法**计算多个景点的最佳游览路径；并实现对有关景点和道路的信息的增删改查。</span>
-
-**师生线上考试平台**
-
-- <span style='font-size:14px'>基于 Java、MySQL、Swings 实现C/S模式的师生线上考试平台。具有线上考试、阅卷、查看成绩、查看排名、学生成绩复核申请等功能。</span>
 
 ## 荣誉奖项
 
