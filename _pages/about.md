@@ -9,16 +9,16 @@ redirect_from:
 ---
 
 ## Education experience
-<span>2020.9-2024.6 Shandong University (SDU)</span>
+2020.9-2024.6 Shandong University (SDU), undergraduate student
 
-2024.8-2028.6 The Chinese University of Hong Kong (CUHK)
+2024.8-2028.6 The Chinese University of Hong Kong (CUHK), Ph.D.
 
 
-## 科研经历
+## Research experience
 To be supplemented.
 
 
-## 荣誉奖项
+## Honors
 
 <span style='font-size:14px'>山东大学2022年暑期社会实践院级优秀团队  2022年10月</span>
 
