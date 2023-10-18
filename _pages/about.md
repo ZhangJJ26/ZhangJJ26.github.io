@@ -15,7 +15,10 @@ redirect_from:
 
 
 ## Research experience
-To be supplemented.
+
+[Retrosynthesis prediction with an interpretable deep-learning framework based on molecular assembly tasks](https://www.nature.com/articles/s41467-023-41698-5)
+
+Nature Communications,2023
 
 
 ## Honors
