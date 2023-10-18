@@ -17,12 +17,12 @@ Software Engineering
 
 GPA：92.835/100, Rank：3/333
 
-Cet-4/Cet-6：512/465
+Cet-4/Cet-6：Pass
 
 IELTS: 6.5
 
 **The Chinese University of Hong Kong**  2024.8-2028.6
-AIDD
+AI Drug Discovery
 
 
 # **Honors**
@@ -33,11 +33,13 @@ National Scholarship * 2
 
 # **Research Experience**
 
-**research interest：AIDD** 
+**research interest：AI Drug Discovery** 
 
-To be supplemented.
+[Retrosynthesis prediction with an interpretable deep-learning framework based on molecular assembly tasks](https://www.nature.com/articles/s41467-023-41698-5)
+
+Nature Communications
 
 
 # **Campus experiences**
 
-**Student Union Minister of the School of Software Engineering at Shandong University** 
+Student Union Minister of the School of Software Engineering at Shandong University
