@@ -20,6 +20,8 @@ GPA：92.835/100, Rank：3/333
 
 **The Chinese University of Hong Kong**  2024.8-2028.6
 
+CSE
+
 AI Drug Discovery
 
 
