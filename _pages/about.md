@@ -16,11 +16,19 @@ I am a Ph.D. candidate at [**The Chinese University of Hong Kong (CUHK)**](https
 - **B.Sc. in College of Software Engineering**, Shandong University (SDU), 2020–2024
 
 ## Research
+### Learning the PTM Code through a Coarse-to-Fine Mechanism-Aware Framework
+<span style="color: purple;">Jingjie Zhang</span>, Hanqun Cao, Zijun Gao, Yu Wang, Shaoning Li, Jun Xu, Cheng Tan, Jun Zhu, Chang-Yu Hsieh, Chunbin Gu & Pheng Ann Heng
+- **Description**: COMPASS-PTM is a mechanism-aware, coarse-to-fine learning framework that unifies residue-level multi-label PTM prediction with enzyme-substrate assignment by jointly modeling PTM patterns and their catalytic regulators.
+- <span style="color: red;">Note: This paper has been accepted in principle at [Nature Communications].</span>
+- **Paper**: [arxiv](https://arxiv.org/abs/2510.23492)
+- **Code**: [GitHub Repository](https://github.com/ZhangJJ26/COMPASS-PTM)
+
+
 ### SAGEPhos: SAGE Bio-Coupled and Augmented Fusion for Phosphorylation Site Detection
 <span style="color: purple;">Jingjie Zhang</span>, Hanqun Cao, Zijun Gao, Xiaorui Wang, Chunbin Gu
 - **Description**: SAGEPhos is a structure-aware framework for phosphorylation site prediction that modifies protein inputs using auxiliary modalities at two levels (Bio-Coupled and Bio-Augmented fusion).
 - <span style="color: red;">Note: This paper has been accepted at [ICLR 2025](https://openreview.net/forum?id=hLwcNSFhC2).</span>
-- **Paper**: [arxiv](https://arxiv.org/abs/2502.07384)
+- **Paper**: [Openreview](https://openreview.net/pdf?id=hLwcNSFhC2)
 - **Code**: [GitHub Repository](https://github.com/ZhangJJ26/SAGEPhos)
 
 ### Retrosynthesis prediction with an interpretable deep-learning framework based on molecular assembly tasks
