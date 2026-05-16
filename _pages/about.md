@@ -19,8 +19,8 @@ I am a Ph.D. candidate at [**The Chinese University of Hong Kong (CUHK)**](https
 ### Learning the PTM Code through a Coarse-to-Fine Mechanism-Aware Framework
 <span style="color: purple;">Jingjie Zhang</span>, Hanqun Cao, Zijun Gao, Yu Wang, Shaoning Li, Jun Xu, Cheng Tan, Jun Zhu, Chang-Yu Hsieh, Chunbin Gu & Pheng Ann Heng
 - **Description**: COMPASS-PTM unifies PTM site and enzyme prediction through a mechanism-aware, coarse-to-fine framework, achieving state-of-the-art performance and revealing biologically interpretable regulatory patterns.
-- <span style="color: red;">Note: This paper has been accepted in principle at [Nature Communications].</span>
-- **Paper**: [arxiv](https://arxiv.org/abs/2510.23492)
+- <span style="color: red;">Note: This paper has been accepted in principle at [Nature Communications](https://doi.org/10.1038/s41467-026-73148-3).</span>
+- **Paper**: [DOI](https://doi.org/10.1038/s41467-026-73148-3)
 - **Code**: [GitHub Repository](https://github.com/ZhangJJ26/COMPASS-PTM)
 
 
